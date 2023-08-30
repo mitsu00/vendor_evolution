@@ -39,11 +39,15 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/audio/notifications/Flick.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Flick.ogg \
     vendor/evolution/audio/notifications/Gentle_gong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Gentle_gong.ogg \
     vendor/evolution/audio/notifications/Hey.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Hey.ogg \
+    vendor/evolution/audio/notifications/Jan.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Jan.ogg \
+    vendor/evolution/audio/notifications/Jajan.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Jajan.ogg \
     vendor/evolution/audio/notifications/Mallet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Mallet.ogg \
     vendor/evolution/audio/notifications/Note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Note.ogg \
     vendor/evolution/audio/notifications/Orders_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Orders_up.ogg \
     vendor/evolution/audio/notifications/Ping.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Ping.ogg \
     vendor/evolution/audio/notifications/Pipes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pipes.ogg \
+    vendor/evolution/audio/notifications/Pipo.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pipo.ogg \
+    vendor/evolution/audio/notifications/Pirorin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pirorin.ogg \
     vendor/evolution/audio/notifications/Popcorn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Popcorn.ogg \
     vendor/evolution/audio/notifications/Shopkeeper.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Shopkeeper.ogg \
     vendor/evolution/audio/notifications/Sticks_and_stones.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Sticks_and_stones.ogg \
@@ -94,9 +98,10 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
     vendor/evolution/audio/ui/reverse_charging_end.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/reverse_charging_end.ogg \
     vendor/evolution/audio/ui/reverse_charging_start.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/reverse_charging_start.ogg
+    vendor/evolution/audio/ui/screenshot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/screenshot.ogg
 
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Your_new_adventure.ogg \
-    ro.config.notification_sound=Eureka.ogg \
+    ro.config.notification_sound=Pipo.ogg \
     ro.config.alarm_alert=Fresh_start.ogg
